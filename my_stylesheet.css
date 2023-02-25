@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* 
+Author: Ivan Kim
+Date: 2/23/2023
+
+Filename: my_stylesheet.css
+*/
+
+/* HTML and Body Styles */
+html {
+    background-image: url("neon.night.jpg.jpg");
+    background-position: left;
+}
+
+
+body {
+    padding: 0;
+   
+    color: gray;
+    background-color: yellow;
+    font-family: Verdana, Geneva, sans-serif;
+}
+    
+   
+    
+   
+
+
+/* Heading Styles */
+
+
+h1 {
+    color: purple;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+
+
+
+/* Navigation Styles */	
+
+.bar {
+    height: 10vh;
+    width: 50%;
+    
+}
+ 
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: gray;
+}
+
+nav ul li a{
+    color: salmon;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:beige;
+    transition: .4s;    
+}
+
+
+.second name {
+    background-color: burlywood;
+    text-align:left
+}
+
+nav {
+    color: blue;
+    
+}
+
+
+
+
+
+/* List Styles */
+
+
+/* Footer Styles */
+footer {
+    color: dimgray;
+    font: normal small-caps bold 0.9em/3em
+        Quicksand, sans-serif;
+    text-align: center;
+}
